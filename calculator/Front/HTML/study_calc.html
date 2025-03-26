@@ -5,97 +5,51 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>study_calc</title>
         <link rel="stylesheet" href="../CSS/study_calc.css" />
-        <script src="../main.js"></script>
+        <script type="module" src="../main.js"></script>
     </head>
     <body>
         <!-- 계산기 영역 -->
         <div id="calc_area">
             <!-- 계산 결과 영역 -->
-            <div><h2>0</h2></div>
+            <!-- <div><h2>0</h2></div> -->
             <div id="result_area"><h1>0</h1></div>
             <!--------------->
             <!-- 계산기 1행 -->
             <div id="calc_row1">
-                <button id="clean" onclick="clean()">C</button>
-                <button id="dot" value="." onclick="dotPrint(dot.value)">
-                    .
-                </button>
-                <button
-                    id="num_div"
-                    value="/"
-                    onclick="operation(num_div.value)"
-                >
-                    /
-                </button>
-                <button id="back" onclick="back()">&nbsp;</button>
+                <button id="clean">C</button>
+                <button id="dot" value=".">.</button>
+                <button id="num_div" value="/">/</button>
+                <button id="back">&nbsp;</button>
             </div>
             <!--------------->
             <!-- 계산기 2행 -->
             <div id="calc_row2">
-                <button id="num7" value="7" onclick="numPrint(num7.value)">
-                    7
-                </button>
-                <button id="num8" value="8" onclick="numPrint(num8.value)">
-                    8
-                </button>
-                <button id="num9" value="9" onclick="numPrint(num9.value)">
-                    9
-                </button>
-                <button
-                    id="num_mul"
-                    value="*"
-                    onclick="operation(num_mul.value)"
-                >
-                    x
-                </button>
+                <button id="num7" value="7">7</button>
+                <button id="num8" value="8">8</button>
+                <button id="num9" value="9">9</button>
+                <button id="num_mul" value="*">x</button>
             </div>
             <!--------------->
             <!-- 계산기 3행 -->
             <div id="calc_row3">
-                <button id="num4" value="4" onclick="numPrint(num4.value)">
-                    4
-                </button>
-                <button id="num5" value="5" onclick="numPrint(num5.value)">
-                    5
-                </button>
-                <button id="num6" value="6" onclick="numPrint(num6.value)">
-                    6
-                </button>
-                <button
-                    id="num_sub"
-                    value="-"
-                    onclick="operation(num_sub.value)"
-                >
-                    -
-                </button>
+                <button id="num4" value="4">4</button>
+                <button id="num5" value="5">5</button>
+                <button id="num6" value="6">6</button>
+                <button id="num_sub" value="-">-</button>
             </div>
             <!--------------->
             <!-- 계산기 4행 -->
             <div id="calc_row4">
-                <button id="num1" value="1" onclick="numPrint(num1.value)">
-                    1
-                </button>
-                <button id="num2" value="2" onclick="numPrint(num2.value)">
-                    2
-                </button>
-                <button id="num3" value="3" onclick="numPrint(num3.value)">
-                    3
-                </button>
-                <button
-                    id="num_sum"
-                    value="+"
-                    onclick="operation(num_sum.value)"
-                >
-                    +
-                </button>
+                <button id="num1" value="1">1</button>
+                <button id="num2" value="2">2</button>
+                <button id="num3" value="3">3</button>
+                <button id="num_sum" value="+">+</button>
             </div>
             <!--------------->
             <!-- 계산기 5행 -->
             <div id="calc_row5">
-                <button id="num0" value="0" onclick="numPrint(num0.value)">
-                    0
-                </button>
-                <button id="num_ent" value="=" onclick="valuePrint()">=</button>
+                <button id="num0" value="0">0</button>
+                <button id="num_ent" value="=">=</button>
             </div>
             <!--------------->
         </div>
