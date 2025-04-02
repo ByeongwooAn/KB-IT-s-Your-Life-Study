@@ -1,0 +1,16 @@
+/* 결과 화면 UI */
+#result_area {
+    width: 98%;
+    height: 88px;
+    align-content: center;
+    text-align: right;
+    background-color: rgba(240, 248, 255, 0.822);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px rgba(240, 248, 255, 0.877);
+}
+
+/* 결과 텍스트 */
+#result_area > h1 {
+    text-align: right;
+    margin-right: 10px;
+}

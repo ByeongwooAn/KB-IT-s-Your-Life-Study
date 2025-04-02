@@ -1,0 +1,22 @@
+/* 계산기 버튼 영역 */
+#calc_row1 {
+    width: 100%;
+    height: 100px;
+}
+
+#back {
+    background-image: url(../Image/backsapce.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin: auto;
+}
+
+#back {
+    background-color: rgb(163, 43, 43);
+    box-shadow: 1px 1px 1px rgb(145, 38, 38);
+    color: white;
+}
+
+#back:active {
+    background-color: rgb(189, 72, 72);
+}
