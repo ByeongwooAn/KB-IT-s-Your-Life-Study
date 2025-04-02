@@ -1,0 +1,14 @@
+#calc_row2 {
+    width: 100px;
+    display: inline-block;
+}
+
+#num_ent {
+    background-color: rgb(13, 13, 160);
+    color: white;
+    box-shadow: 1px 1px 1px rgb(11, 11, 146);
+}
+
+#num_ent:active {
+    background-color: rgb(50, 50, 160);
+}

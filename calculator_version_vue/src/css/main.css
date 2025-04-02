@@ -1,0 +1,22 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 계산기 UI */
+#calc_area {
+    width: 430px;
+    height: 600px;
+    background-color: rgba(236, 236, 236, 0.76);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgb(206, 206, 206);
+    justify-items: center;
+    align-content: center;
+}
+
+/* 계산기 요소 가운데 정렬 */
+#calc_area > div {
+    text-align: center;
+    align-content: center;
+    display: block;
+}
